@@ -1,0 +1,27 @@
+{
+  "name": "react-odev1",
+  "version": "1.0.0",
+  "description": "async, await, axios usage",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertug-guney/reactOdev1.git"
+  },
+  "keywords": [
+    "react",
+    "odev1"
+  ],
+  "author": "Ertug Guney <yukselenay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ertug-guney/reactOdev1/issues"
+  },
+  "homepage": "https://github.com/ertug-guney/reactOdev1#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
