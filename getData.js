@@ -8,8 +8,7 @@ export default async function getData(user_id) {
   const { data: post } = await axios(
     "https://jsonplaceholder.typicode.com/posts?userId=" + user_id
   );
-  console.log(user);
-  console.log(post);
+  console.log(user); //1. yöntem
+  console.log(post); //1. yöntem
+  // return { data: user }, { data: post };   //2. yöntem
 }
-
-// getData(1);
